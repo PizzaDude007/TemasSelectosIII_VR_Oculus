@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class Personaje : MonoBehaviour
 {
+    public Transform miraBalas;
+    public GameObject bala;
+
     public CharacterController personaje;
     public Vector3 velocidadPersonaje;
     public bool estaEnPiso;
-    public float gravedad, aceleracionPersonaje, fuerzaSalto;
+    public float gravedad, aceleracionPersonaje, fuerzaSalto, fuerza;
 
     //public Collider camina;
     public GameObject EnemigoObject;
@@ -22,6 +25,13 @@ public class Personaje : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            var balas = Instantiate(bala, miraBalas); //Se genera la instancia de bala
+            //Sacamos el rigid body de la bala y le aplicamos una fuerza hacia enfrente, de tipo impulso
+            balas.GetComponent<Rigidbody>().AddForce(bala.transform.forward*fuerza*Time.deltaTime,ForceMode.Impulse);
+        }
+
         estaEnPiso = personaje.isGrounded;
         if (estaEnPiso && velocidadPersonaje.y < 0)
         {
@@ -40,12 +50,12 @@ public class Personaje : MonoBehaviour
         personaje.Move(velocidadPersonaje * Time.deltaTime);
     }
 
-    public void OnCollisionEnter(Collision collision)
-    {
-        if(collision.collider.name == "Collider")
-        {
-            print("empieza persecusion");
-            Enemigo.persigue();
-        }
-    }
+    //public void OnCollisionEnter(Collision collision)
+    //{
+    //    if(collision.collider.name == "Collider")
+    //    {
+    //        print("empieza persecusion");
+    //        Enemigo.persigue();
+    //    }
+    //}
 }

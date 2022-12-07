@@ -757,10 +757,16 @@ struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
 // Oculus.Interaction.Surfaces.PlaneSurface
 struct PlaneSurface_tEBEE129858C06C130F2245C44C19B37BEBC935AC;
+// Oculus.Interaction.Deprecated.PointableDebugPolylineGizmos
+struct PointableDebugPolylineGizmos_t2DE45A6E8897D347D67431E94F432F20343FA568;
+// Oculus.Interaction.Deprecated.PolylineGizmos
+struct PolylineGizmos_tF07843F74110BB21FAA28205531CA6536815A1C8;
 // Oculus.Interaction.ProgressCurve
 struct ProgressCurve_t4240A915DEBE2CD7C1D414683EB5A89A06494401;
 // System.Reflection.PropertyInfo
 struct PropertyInfo_t;
+// Oculus.Interaction.Deprecated.RayInteractorDebugPolylineGizmos
+struct RayInteractorDebugPolylineGizmos_t931C944C882AE1D37E0941BFACFD00BA7133F403;
 // Oculus.Interaction.Input.ReadOnlyHandJointPoses
 struct ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551;
 // UnityEngine.UI.RectMask2D
@@ -2106,6 +2112,16 @@ struct MemberInfo_t  : public RuntimeObject
 {
 };
 
+// Oculus.Interaction.Deprecated.PointableDebugPolylineGizmos
+struct PointableDebugPolylineGizmos_t2DE45A6E8897D347D67431E94F432F20343FA568  : public RuntimeObject
+{
+};
+
+// Oculus.Interaction.Deprecated.PolylineGizmos
+struct PolylineGizmos_tF07843F74110BB21FAA28205531CA6536815A1C8  : public RuntimeObject
+{
+};
+
 // Oculus.Interaction.ProgressCurve
 struct ProgressCurve_t4240A915DEBE2CD7C1D414683EB5A89A06494401  : public RuntimeObject
 {
@@ -2115,6 +2131,11 @@ struct ProgressCurve_t4240A915DEBE2CD7C1D414683EB5A89A06494401  : public Runtime
 	float ____animationLength_1;
 	// System.Single Oculus.Interaction.ProgressCurve::_animationStartTime
 	float ____animationStartTime_2;
+};
+
+// Oculus.Interaction.Deprecated.RayInteractorDebugPolylineGizmos
+struct RayInteractorDebugPolylineGizmos_t931C944C882AE1D37E0941BFACFD00BA7133F403  : public RuntimeObject
+{
 };
 
 // Oculus.Interaction.Input.ReadOnlyHandJointPoses
@@ -27875,6 +27896,54 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlaneSurface_Oculus_Interaction_Surfaces
 		bool L_3;
 		L_3 = PlaneSurface_ClosestSurfacePoint_m803F63064B0946C7767CFEA9284865B7F3BE8B1A(__this, L_0, L_1, L_2, NULL);
 		return L_3;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Oculus.Interaction.Deprecated.RayInteractorDebugPolylineGizmos::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RayInteractorDebugPolylineGizmos__ctor_m08A8FA5FB3622D0C8A00EE9D0ABCF0AFC5D1B6E0 (RayInteractorDebugPolylineGizmos_t931C944C882AE1D37E0941BFACFD00BA7133F403* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Oculus.Interaction.Deprecated.PointableDebugPolylineGizmos::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointableDebugPolylineGizmos__ctor_m594235DD2648776D55411715DF97B0FE9CEAA610 (PointableDebugPolylineGizmos_t2DE45A6E8897D347D67431E94F432F20343FA568* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Oculus.Interaction.Deprecated.PolylineGizmos::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolylineGizmos__ctor_m0394AE1D48B493931A4425B4B2C10173100B9C84 (PolylineGizmos_tF07843F74110BB21FAA28205531CA6536815A1C8* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
 	}
 }
 #ifdef __clang__

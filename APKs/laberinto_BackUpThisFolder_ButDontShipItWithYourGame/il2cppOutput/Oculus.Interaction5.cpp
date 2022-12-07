@@ -346,26 +346,16 @@ struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C;
 struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA;
 // Oculus.Interaction.Grab.GrabSurfaces.BezierGrabSurface
 struct BezierGrabSurface_t6D5885876180AE3D960A74E6028AB6E23618758A;
-// Oculus.Interaction.Deprecated.BezierSurface
-struct BezierSurface_tCBD298F630129D1C146147850F4E670DC5E200ED;
 // Oculus.Interaction.Grab.GrabSurfaces.BoxGrabSurface
 struct BoxGrabSurface_t3F27EAB6283599BF1C3C8B7C5AA83A16A79CAF13;
 // Oculus.Interaction.Grab.GrabSurfaces.BoxGrabSurfaceData
 struct BoxGrabSurfaceData_t66149E7542EBB20E46C3449ABA13466C068A76B6;
-// Oculus.Interaction.Deprecated.BoxSurface
-struct BoxSurface_tAAF1A0103B0506E445926EB97C69C0648361D53D;
 // UnityEngine.Camera
 struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184;
-// Oculus.Interaction.Deprecated.CanvasMeshPointable
-struct CanvasMeshPointable_t92C4339B214CCD9D4096F3BA1AF24A80D198BEE9;
-// Oculus.Interaction.Deprecated.CanvasRenderTextureMesh
-struct CanvasRenderTextureMesh_t02A4F45338938B3338617EA269FDD869F236157F;
 // UnityEngine.Collider
 struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76;
 // Oculus.Interaction.Grab.GrabSurfaces.ColliderGrabSurface
 struct ColliderGrabSurface_t1583F8CE3C5F7CDEE9CC83DBFF3919553A63670B;
-// Oculus.Interaction.Deprecated.ColliderSurface
-struct ColliderSurface_t4831BCC604F8CA661E3F8076486776DC3FC15B2E;
 // UnityEngine.Component
 struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
 // UnityEngine.ComputeBuffer
@@ -374,8 +364,6 @@ struct ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233;
 struct ConicalFrustum_t4D5B23814649B609D1328373C63073F421B64822;
 // Oculus.Interaction.Grab.GrabSurfaces.CylinderGrabSurface
 struct CylinderGrabSurface_tFF85BD60B9D3D2023B476257FBF464E299369821;
-// Oculus.Interaction.Deprecated.CylinderSurface
-struct CylinderSurface_t4860F7819DFDDFF5CF7889F02572BB0CA482FD51;
 // Oculus.Interaction.Grab.GrabSurfaces.CylinderSurfaceData
 struct CylinderSurfaceData_t0A17332FBC9C181DAE257D7976BD5F56E62E3621;
 // System.Delegate
@@ -394,34 +382,16 @@ struct DistantInteractionLineVisual_t7D10F56403604672DC3885A2A3022F8BE25C6B93;
 struct DistantInteractionPolylineVisual_t2291BAA19519BA2FCCE862EFAE55E2EA31D39487;
 // Oculus.Interaction.HandGrab.DistantPointDetector
 struct DistantPointDetector_t26BA6E53C74B31496A550BF34D77962DD2513A46;
-// Oculus.Interaction.Deprecated.DropZoneInteractable
-struct DropZoneInteractable_t92FD1C2B60E67DB2097732DFE98E8E069E3F9A0D;
-// Oculus.Interaction.Deprecated.DropZoneInteractor
-struct DropZoneInteractor_t2BD9710EB716126AA66899B10B8080C0B8558B78;
-// Oculus.Interaction.Deprecated.DropZoneSequentialSlotsProvider
-struct DropZoneSequentialSlotsProvider_t6AFDE2C241DAD92CBF05FFE03D5FB904E66E730D;
-// Oculus.Interaction.Deprecated.DummyDataModifier
-struct DummyDataModifier_t9697A00B2EE833C729C15C325713BD3C053FDF1B;
-// Oculus.Interaction.Deprecated.FingerGrabAPI
-struct FingerGrabAPI_t3C16A7EFBD664E8A8966BFD6632D4211B4A8584D;
 // Oculus.Interaction.GrabAPI.FingerPalmGrabAPI
 struct FingerPalmGrabAPI_t344EB3964A82E1E0B1B6968D8BCA70100B512327;
-// Oculus.Interaction.Deprecated.FingerPinchAPI
-struct FingerPinchAPI_t262FF8BDF662BA6239445E197D50038A09ABCA04;
 // Oculus.Interaction.GrabAPI.FingerPinchGrabAPI
 struct FingerPinchGrabAPI_tD16315C64A0A6FAC59208A7A3F97C46D22499832;
 // Oculus.Interaction.GrabAPI.FingerRawPinchAPI
 struct FingerRawPinchAPI_t1AD298888438539EB75E75FF0E4F46751B7FBFF1;
 // Oculus.Interaction.GrabAPI.FingerRawPinchInjector
 struct FingerRawPinchInjector_t5592589F13477BF139F3F637F378D9F6986AB176;
-// Oculus.Interaction.Deprecated.FixedScaleDataModifier
-struct FixedScaleDataModifier_t0C4BC79CB314F63A3FE6F23EDD144DBA3C778B28;
 // UnityEngine.GameObject
 struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
-// Oculus.Interaction.Deprecated.GrabPoint
-struct GrabPoint_tF1744AF0289E825C7C63D10B1FA2BE545DDEE985;
-// Oculus.Interaction.Deprecated.GrabPointsPoseFinder
-struct GrabPointsPoseFinder_t225254CA171C154FF956737F8AEF81B08531B663;
 // Oculus.Interaction.HandGrab.GrabPoseFinder
 struct GrabPoseFinder_t2FC4591CBABC43392D019EA3064277B629DF77D3;
 // Oculus.Interaction.Grabbable
@@ -444,14 +414,8 @@ struct HandGrabAPI_tC01EECBC2ADA4AC37EC064B470A93CBD44CB8787;
 struct HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127;
 // Oculus.Interaction.HandGrab.HandGrabInteractableDataCollection
 struct HandGrabInteractableDataCollection_t06CACE07D42B931FD1B348C24A6929FB1BD7BE4D;
-// Oculus.Interaction.Deprecated.HandGrabInteractionUtilities
-struct HandGrabInteractionUtilities_t938018C797EBE51065FF75A77AECA109EA7E157E;
 // Oculus.Interaction.HandGrab.HandGrabInteractor
 struct HandGrabInteractor_t9A01E021BC9142BD8CCE6BC1458A89E38CF8152D;
-// Oculus.Interaction.Deprecated.HandGrabInteractorVisual
-struct HandGrabInteractorVisual_t75BAEF131EADDBAC1FA18E210E448E2161B4AF5E;
-// Oculus.Interaction.Deprecated.HandGrabPoint
-struct HandGrabPoint_tB8D7EC4231DB7A46991B4A7B4FB63ACB6B2E0D53;
 // Oculus.Interaction.HandGrab.HandGrabPose
 struct HandGrabPose_t347682EF05B32B395F27F50DB38500405C17C633;
 // Oculus.Interaction.HandGrab.HandGrabResult
@@ -468,10 +432,6 @@ struct HandJointCache_t8BDBDA97A57F7D39288F80C40A225C050A05116B;
 struct HandPinchData_t3EB5C22BF0C9F90CDEE7117E00CC3A6EF812C38C;
 // Oculus.Interaction.HandGrab.HandPose
 struct HandPose_t0B0F57FC79F74C9D20E54C6999A45D59FDDAC733;
-// Oculus.Interaction.Deprecated.HandPoseRecordable
-struct HandPoseRecordable_t14C8028E918A613DAC091C87FD53826267E5AA89;
-// Oculus.Interaction.Deprecated.HandPoseRecorder
-struct HandPoseRecorder_tFFC867D177BB2A3F71AEC5602232A3442D969417;
 // Oculus.Interaction.Input.HandSkeleton
 struct HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A;
 // Oculus.Interaction.HandVisual
@@ -522,22 +482,6 @@ struct ITrackingToWorldTransformer_t193B383D2CCDEDD1521A0197EB476879DD657B2E;
 struct ITransformer_tBB31E099D9CEFBD0AAFB52F351CF96DF5E74F032;
 // Oculus.Interaction.Throw.IVelocityCalculator
 struct IVelocityCalculator_t330C870F0625311FBA255F43606D62282186FF39;
-// Oculus.Interaction.Deprecated.InputDataProviderUpdateTriggerOVR
-struct InputDataProviderUpdateTriggerOVR_tE8D61AA195A58A2A96B55C036E2F36275370594B;
-// Oculus.Interaction.Deprecated.InteractableTransformableConnection
-struct InteractableTransformableConnection_tB872442B5A31F08BCB12A7270EAB415F82F7BA6E;
-// Oculus.Interaction.Deprecated.InteractionOVRCameraRig
-struct InteractionOVRCameraRig_t894006BD25A6C50C219E97034AC474D54671558D;
-// Oculus.Interaction.Deprecated.InteractorDriver
-struct InteractorDriver_tCF2F3AE5B7609992F3B720446004D41630BBD4C5;
-// Oculus.Interaction.Deprecated.InteractorDriverGroup
-struct InteractorDriverGroup_tCB165B2D74BDEBC387B9EA115373DCBA1DCF5106;
-// Oculus.Interaction.Deprecated.JointLocking
-struct JointLocking_t7E9BB5955E0CCE41E59BD886BED92798FC6B2038;
-// Oculus.Interaction.Deprecated.JointRotationHistoryModifier
-struct JointRotationHistoryModifier_tC19F39663A0EB67C977C0403041E5F486DDC24A8;
-// Oculus.Interaction.Deprecated.LastKnownGoodDataModifier
-struct LastKnownGoodDataModifier_t80A78C5ECFB38E898AC5CE2FE9B8F3DDD112922C;
 // UnityEngine.LineRenderer
 struct LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D;
 // UnityEngine.Material
@@ -564,48 +508,14 @@ struct OVRControllerHelper_tE74358674840FCEA3E11CA3F6E87BC1653056D6F;
 struct OVRControllerVisual_t83C619A2438DD942EAE6A0FCF192483CAA3F38BB;
 // OVRHand
 struct OVRHand_t2AB8992EC24012BFAB01C897FA6CF80B0A3AC509;
-// Oculus.Interaction.Deprecated.OVRSkeletonDataProviders
-struct OVRSkeletonDataProviders_t491B19DD085BF3AEB8AF66239194FD781FC26C8F;
 // UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
-// Oculus.Interaction.Deprecated.OneEuroFilterPositionDataModifier
-struct OneEuroFilterPositionDataModifier_t5B3CB83D9A08142C0C38588D2E4DEE16FB0A37BC;
-// Oculus.Interaction.Deprecated.OneEuroFilterPositionHand
-struct OneEuroFilterPositionHand_t1E88DED99F1BEF1043B5EB4431CA3CD0D9C277DC;
-// Oculus.Interaction.Deprecated.OneEuroFilterRotationDataModifier
-struct OneEuroFilterRotationDataModifier_tAD359702D9F84B8159042B94BE0E5AB29A97500E;
-// Oculus.Interaction.Deprecated.OneEuroFilterRotationHand
-struct OneEuroFilterRotationHand_t7DFF718617607C32DDAC6681A1BBB9FB8A295137;
-// Oculus.Interaction.Deprecated.OneHandFreeTransformer
-struct OneHandFreeTransformer_t571E099023652EED3F3C15D41409FC531ABB778B;
-// Oculus.Interaction.Deprecated.OneHandPhysicsJointTransformer
-struct OneHandPhysicsJointTransformer_t4C159D48CF783C45378E718AA6F5DB6D7E47E6E3;
-// Oculus.Interaction.Deprecated.OneHandRotateTransformer
-struct OneHandRotateTransformer_tEE2AC7B0C36D7211445C1A309688F4A4B367A988;
-// Oculus.Interaction.Deprecated.OneHandTranslateTransformer
-struct OneHandTranslateTransformer_t64D5E9E2C0A42EE79C58F5929131FBBBEBD86C7F;
 // Oculus.Interaction.PhysicsGrabbable
 struct PhysicsGrabbable_tD148E9FA4004FE544C31B83B6435EDAE852C61BF;
-// Oculus.Interaction.Deprecated.PhysicsTransformable
-struct PhysicsTransformable_t387F108E92330DCE5547F4A316233A4FFF6B1926;
-// Oculus.Interaction.Deprecated.PointableCylinder
-struct PointableCylinder_t0C622E2EC0209FE17B5AAEEDAF5E4514B285FE61;
-// Oculus.Interaction.Deprecated.PointableDebugPolylineGizmos
-struct PointableDebugPolylineGizmos_t2DE45A6E8897D347D67431E94F432F20343FA568;
-// Oculus.Interaction.Deprecated.PointableGrabbableConnection
-struct PointableGrabbableConnection_tB8AE282D8D737108197C155D0180D63E05AD9EDA;
-// Oculus.Interaction.Deprecated.PointableGroup
-struct PointableGroup_tEB6216FE5245F1F17C4C196C7C061C0A69660A06;
-// Oculus.Interaction.Deprecated.PointablePlane
-struct PointablePlane_tD38A2A22EBDDF1077C931746C84013F9AB8E73B8;
-// Oculus.Interaction.Deprecated.PolylineGizmos
-struct PolylineGizmos_tF07843F74110BB21FAA28205531CA6536815A1C8;
 // Oculus.Interaction.PolylineRenderer
 struct PolylineRenderer_t5066749B173A1D4472C6D172B7199B4DCBD01CB0;
 // Oculus.Interaction.ProgressCurve
 struct ProgressCurve_t4240A915DEBE2CD7C1D414683EB5A89A06494401;
-// Oculus.Interaction.Deprecated.RayInteractorDebugPolylineGizmos
-struct RayInteractorDebugPolylineGizmos_t931C944C882AE1D37E0941BFACFD00BA7133F403;
 // Oculus.Interaction.Input.ReadOnlyHandJointPoses
 struct ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551;
 // UnityEngine.Renderer
@@ -630,42 +540,24 @@ struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A;
 struct SetDisplayRefresh_t94A0BC7D78C8B67E5789F3ABB66F5075B2FBAAE3;
 // UnityEngine.SkinnedMeshRenderer
 struct SkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E;
-// Oculus.Interaction.Deprecated.SnapAddress
-struct SnapAddress_t9D4550D9A0DC7D5E9E69904CA9A503176EC0360B;
-// Oculus.Interaction.Deprecated.SnapPoint
-struct SnapPoint_t61DC9883BEC8539C7C51CC7C98E5C28B4FEDF6E6;
 // UnityEngine.SphereCollider
 struct SphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275;
 // Oculus.Interaction.Grab.GrabSurfaces.SphereGrabSurface
 struct SphereGrabSurface_tDB2FAFBDD0C548226D69E1D5301D6D126C5E88C4;
 // Oculus.Interaction.Grab.GrabSurfaces.SphereGrabSurfaceData
 struct SphereGrabSurfaceData_tB09B4D58AF9407A0BA89C29E6D538B0690C9452D;
-// Oculus.Interaction.Deprecated.SphereSurface
-struct SphereSurface_t032CD76396C515685EB3641037F5A819E46D5012;
 // System.String
 struct String_t;
 // Oculus.Interaction.Input.SyntheticHand
 struct SyntheticHand_t07623CBED61B11B848CCFF29D9A3BBD99F6A4185;
-// Oculus.Interaction.Deprecated.SyntheticHandModifier
-struct SyntheticHandModifier_t59CA9B8F4D363EA2846F84E1CF9B9D7FDE05F16F;
-// Oculus.Interaction.Deprecated.TagInteractableFilter
-struct TagInteractableFilter_tAD802DE1C9042EDFC3CF23C3E417C07E404BAAB7;
 // UnityEngine.Texture
 struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700;
 // Oculus.Interaction.Input.TrackingToWorldTransformerOVR
 struct TrackingToWorldTransformerOVR_t8E41DF50B7D7EE3861652B4619C9E250840E825C;
 // UnityEngine.Transform
 struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
-// Oculus.Interaction.Deprecated.Transformable
-struct Transformable_tBBAF38A85C229EA188DB5F5A6A42008F3B672993;
-// Oculus.Interaction.Deprecated.TransformableUnityEventWrapper
-struct TransformableUnityEventWrapper_tF76B34B54AA37FD9322E031288288A7BDB5B5EE2;
 // Oculus.Interaction.Tween
 struct Tween_t31BD626A4786A5E37E6B138C3ACB5021A477D967;
-// Oculus.Interaction.Deprecated.TwoHandFreeTransformer
-struct TwoHandFreeTransformer_tB5076772ECD47864807B3F53631E18DE1C77EB9E;
-// Oculus.Interaction.Deprecated.TwoHandPlaneTransformer
-struct TwoHandPlaneTransformer_t8DE5F7E27BBF9683D3A7E7754A1D6ABC8B91CB34;
 // Oculus.Interaction.UniqueIdentifier
 struct UniqueIdentifier_t2CFA79939EF9F08A544BAA867445202C60871342;
 // System.Void
@@ -1094,46 +986,6 @@ struct List_1_tF42FEB6C3B18B7E7C8F2DE1FEBA00D2491736317_StaticFields
 };
 struct Il2CppArrayBounds;
 
-// Oculus.Interaction.Deprecated.BezierSurface
-struct BezierSurface_tCBD298F630129D1C146147850F4E670DC5E200ED  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.BoxSurface
-struct BoxSurface_tAAF1A0103B0506E445926EB97C69C0648361D53D  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.CanvasMeshPointable
-struct CanvasMeshPointable_t92C4339B214CCD9D4096F3BA1AF24A80D198BEE9  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.CanvasRenderTextureMesh
-struct CanvasRenderTextureMesh_t02A4F45338938B3338617EA269FDD869F236157F  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.ColliderSurface
-struct ColliderSurface_t4831BCC604F8CA661E3F8076486776DC3FC15B2E  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.CylinderSurface
-struct CylinderSurface_t4860F7819DFDDFF5CF7889F02572BB0CA482FD51  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.DummyDataModifier
-struct DummyDataModifier_t9697A00B2EE833C729C15C325713BD3C053FDF1B  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.FingerGrabAPI
-struct FingerGrabAPI_t3C16A7EFBD664E8A8966BFD6632D4211B4A8584D  : public RuntimeObject
-{
-};
-
 // Oculus.Interaction.GrabAPI.FingerPalmGrabAPI
 struct FingerPalmGrabAPI_t344EB3964A82E1E0B1B6968D8BCA70100B512327  : public RuntimeObject
 {
@@ -1141,11 +993,6 @@ struct FingerPalmGrabAPI_t344EB3964A82E1E0B1B6968D8BCA70100B512327  : public Run
 	int32_t ___apiHandle__0;
 	// Oculus.Interaction.GrabAPI.FingerPalmGrabAPI/HandData Oculus.Interaction.GrabAPI.FingerPalmGrabAPI::handData_
 	HandData_t9F71FCD9F40D74F7AFA608C7CCDAE85D37396838* ___handData__1;
-};
-
-// Oculus.Interaction.Deprecated.FingerPinchAPI
-struct FingerPinchAPI_t262FF8BDF662BA6239445E197D50038A09ABCA04  : public RuntimeObject
-{
 };
 
 // Oculus.Interaction.GrabAPI.FingerPinchGrabAPI
@@ -1162,21 +1009,6 @@ struct FingerRawPinchAPI_t1AD298888438539EB75E75FF0E4F46751B7FBFF1  : public Run
 {
 	// Oculus.Interaction.GrabAPI.FingerRawPinchAPI/FingerPinchData[] Oculus.Interaction.GrabAPI.FingerRawPinchAPI::_fingersPinchData
 	FingerPinchDataU5BU5D_tF0CE9342D5B2C2C61E1EC71AA32D4CFA44F53CA2* ____fingersPinchData_0;
-};
-
-// Oculus.Interaction.Deprecated.FixedScaleDataModifier
-struct FixedScaleDataModifier_t0C4BC79CB314F63A3FE6F23EDD144DBA3C778B28  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.GrabPoint
-struct GrabPoint_tF1744AF0289E825C7C63D10B1FA2BE545DDEE985  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.GrabPointsPoseFinder
-struct GrabPointsPoseFinder_t225254CA171C154FF956737F8AEF81B08531B663  : public RuntimeObject
-{
 };
 
 // Oculus.Interaction.Grab.GrabPoseHelper
@@ -1202,16 +1034,6 @@ struct HandGrab_t7DEEC830BBA026DE256CE743A52D8B9B7D6C5E4E  : public RuntimeObjec
 {
 };
 
-// Oculus.Interaction.Deprecated.HandGrabInteractionUtilities
-struct HandGrabInteractionUtilities_t938018C797EBE51065FF75A77AECA109EA7E157E  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.HandGrabInteractorVisual
-struct HandGrabInteractorVisual_t75BAEF131EADDBAC1FA18E210E448E2161B4AF5E  : public RuntimeObject
-{
-};
-
 // Oculus.Interaction.HandGrab.HandPose
 struct HandPose_t0B0F57FC79F74C9D20E54C6999A45D59FDDAC733  : public RuntimeObject
 {
@@ -1221,141 +1043,6 @@ struct HandPose_t0B0F57FC79F74C9D20E54C6999A45D59FDDAC733  : public RuntimeObjec
 	JointFreedomU5BU5D_t0633B95A74A839E476B718AF5883237BE60543E4* ____fingersFreedom_1;
 	// UnityEngine.Quaternion[] Oculus.Interaction.HandGrab.HandPose::_jointRotations
 	QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* ____jointRotations_2;
-};
-
-// Oculus.Interaction.Deprecated.HandPoseRecordable
-struct HandPoseRecordable_t14C8028E918A613DAC091C87FD53826267E5AA89  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.HandPoseRecorder
-struct HandPoseRecorder_tFFC867D177BB2A3F71AEC5602232A3442D969417  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.InputDataProviderUpdateTriggerOVR
-struct InputDataProviderUpdateTriggerOVR_tE8D61AA195A58A2A96B55C036E2F36275370594B  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.InteractableTransformableConnection
-struct InteractableTransformableConnection_tB872442B5A31F08BCB12A7270EAB415F82F7BA6E  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.InteractionOVRCameraRig
-struct InteractionOVRCameraRig_t894006BD25A6C50C219E97034AC474D54671558D  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.InteractorDriver
-struct InteractorDriver_tCF2F3AE5B7609992F3B720446004D41630BBD4C5  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.InteractorDriverGroup
-struct InteractorDriverGroup_tCB165B2D74BDEBC387B9EA115373DCBA1DCF5106  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.JointLocking
-struct JointLocking_t7E9BB5955E0CCE41E59BD886BED92798FC6B2038  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.JointRotationHistoryModifier
-struct JointRotationHistoryModifier_tC19F39663A0EB67C977C0403041E5F486DDC24A8  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.LastKnownGoodDataModifier
-struct LastKnownGoodDataModifier_t80A78C5ECFB38E898AC5CE2FE9B8F3DDD112922C  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.OVRSkeletonDataProviders
-struct OVRSkeletonDataProviders_t491B19DD085BF3AEB8AF66239194FD781FC26C8F  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.OneEuroFilterPositionDataModifier
-struct OneEuroFilterPositionDataModifier_t5B3CB83D9A08142C0C38588D2E4DEE16FB0A37BC  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.OneEuroFilterPositionHand
-struct OneEuroFilterPositionHand_t1E88DED99F1BEF1043B5EB4431CA3CD0D9C277DC  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.OneEuroFilterRotationDataModifier
-struct OneEuroFilterRotationDataModifier_tAD359702D9F84B8159042B94BE0E5AB29A97500E  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.OneEuroFilterRotationHand
-struct OneEuroFilterRotationHand_t7DFF718617607C32DDAC6681A1BBB9FB8A295137  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.OneHandFreeTransformer
-struct OneHandFreeTransformer_t571E099023652EED3F3C15D41409FC531ABB778B  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.OneHandPhysicsJointTransformer
-struct OneHandPhysicsJointTransformer_t4C159D48CF783C45378E718AA6F5DB6D7E47E6E3  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.OneHandRotateTransformer
-struct OneHandRotateTransformer_tEE2AC7B0C36D7211445C1A309688F4A4B367A988  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.OneHandTranslateTransformer
-struct OneHandTranslateTransformer_t64D5E9E2C0A42EE79C58F5929131FBBBEBD86C7F  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.PhysicsTransformable
-struct PhysicsTransformable_t387F108E92330DCE5547F4A316233A4FFF6B1926  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.PointableCylinder
-struct PointableCylinder_t0C622E2EC0209FE17B5AAEEDAF5E4514B285FE61  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.PointableDebugPolylineGizmos
-struct PointableDebugPolylineGizmos_t2DE45A6E8897D347D67431E94F432F20343FA568  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.PointableGrabbableConnection
-struct PointableGrabbableConnection_tB8AE282D8D737108197C155D0180D63E05AD9EDA  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.PointableGroup
-struct PointableGroup_tEB6216FE5245F1F17C4C196C7C061C0A69660A06  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.PointablePlane
-struct PointablePlane_tD38A2A22EBDDF1077C931746C84013F9AB8E73B8  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.PolylineGizmos
-struct PolylineGizmos_tF07843F74110BB21FAA28205531CA6536815A1C8  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.RayInteractorDebugPolylineGizmos
-struct RayInteractorDebugPolylineGizmos_t931C944C882AE1D37E0941BFACFD00BA7133F403  : public RuntimeObject
-{
 };
 
 // Oculus.Interaction.Input.ReadOnlyHandJointPoses
@@ -1371,26 +1058,6 @@ struct ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551_StaticFi
 	ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551* ___U3CEmptyU3Ek__BackingField_1;
 };
 
-// Oculus.Interaction.Deprecated.SnapAddress
-struct SnapAddress_t9D4550D9A0DC7D5E9E69904CA9A503176EC0360B  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.SnapPoint
-struct SnapPoint_t61DC9883BEC8539C7C51CC7C98E5C28B4FEDF6E6  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.SnapSurfaceHelper
-struct SnapSurfaceHelper_t7B9FD4EBC3F8009B447600A0F9C3297C39164A43  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.SphereSurface
-struct SphereSurface_t032CD76396C515685EB3641037F5A819E46D5012  : public RuntimeObject
-{
-};
-
 // System.String
 struct String_t  : public RuntimeObject
 {
@@ -1404,36 +1071,6 @@ struct String_t_StaticFields
 {
 	// System.String System.String::Empty
 	String_t* ___Empty_6;
-};
-
-// Oculus.Interaction.Deprecated.SyntheticHandModifier
-struct SyntheticHandModifier_t59CA9B8F4D363EA2846F84E1CF9B9D7FDE05F16F  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.TagInteractableFilter
-struct TagInteractableFilter_tAD802DE1C9042EDFC3CF23C3E417C07E404BAAB7  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.Transformable
-struct Transformable_tBBAF38A85C229EA188DB5F5A6A42008F3B672993  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.TransformableUnityEventWrapper
-struct TransformableUnityEventWrapper_tF76B34B54AA37FD9322E031288288A7BDB5B5EE2  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.TwoHandFreeTransformer
-struct TwoHandFreeTransformer_tB5076772ECD47864807B3F53631E18DE1C77EB9E  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.TwoHandPlaneTransformer
-struct TwoHandPlaneTransformer_t8DE5F7E27BBF9683D3A7E7754A1D6ABC8B91CB34  : public RuntimeObject
-{
 };
 
 // System.ValueType
@@ -3242,21 +2879,6 @@ struct DistantInteractionLineVisual_t7D10F56403604672DC3885A2A3022F8BE25C6B93  :
 	DummyPointReticle_tC7D8463E33D6EDF2C88440237CE485F970363761* ____dummyTarget_14;
 };
 
-// Oculus.Interaction.Deprecated.DropZoneInteractable
-struct DropZoneInteractable_t92FD1C2B60E67DB2097732DFE98E8E069E3F9A0D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-};
-
-// Oculus.Interaction.Deprecated.DropZoneInteractor
-struct DropZoneInteractor_t2BD9710EB716126AA66899B10B8080C0B8558B78  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-};
-
-// Oculus.Interaction.Deprecated.DropZoneSequentialSlotsProvider
-struct DropZoneSequentialSlotsProvider_t6AFDE2C241DAD92CBF05FFE03D5FB904E66E730D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-};
-
 // Oculus.Interaction.GrabAPI.FingerRawPinchInjector
 struct FingerRawPinchInjector_t5592589F13477BF139F3F637F378D9F6986AB176  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -3277,11 +2899,6 @@ struct HandGrabAPI_tC01EECBC2ADA4AC37EC064B470A93CBD44CB8787  : public MonoBehav
 	RuntimeObject* ____fingerPalmGrabAPI_7;
 	// System.Boolean Oculus.Interaction.GrabAPI.HandGrabAPI::_started
 	bool ____started_8;
-};
-
-// Oculus.Interaction.Deprecated.HandGrabPoint
-struct HandGrabPoint_tB8D7EC4231DB7A46991B4A7B4FB63ACB6B2E0D53  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
 };
 
 // Oculus.Interaction.HandGrab.HandGrabPose
@@ -18421,878 +18038,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGrabAPI__ctor_m029469D1D2A5CE1AE3941
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void Oculus.Interaction.Deprecated.FingerGrabAPI::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FingerGrabAPI__ctor_m3B9926AE56338B82DD0CEE906301CED1C1378011 (FingerGrabAPI_t3C16A7EFBD664E8A8966BFD6632D4211B4A8584D* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.FingerPinchAPI::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FingerPinchAPI__ctor_m37A59B06AA86CC5E8E5B044E0796A746341202EF (FingerPinchAPI_t262FF8BDF662BA6239445E197D50038A09ABCA04* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.HandPoseRecordable::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandPoseRecordable__ctor_mD6A2E43C42E976857781023B22A1BB6F146A363E (HandPoseRecordable_t14C8028E918A613DAC091C87FD53826267E5AA89* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.HandPoseRecorder::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandPoseRecorder__ctor_m6696EA3046C50EE7444CBEDC2AF9E25B090B1D62 (HandPoseRecorder_tFFC867D177BB2A3F71AEC5602232A3442D969417* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.BezierSurface::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BezierSurface__ctor_m048D89A381F5B675D8C88D5957DC6C873681E001 (BezierSurface_tCBD298F630129D1C146147850F4E670DC5E200ED* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.BoxSurface::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxSurface__ctor_m90B9227473C7BFBC205D6E3DE330074F9444DAB6 (BoxSurface_tAAF1A0103B0506E445926EB97C69C0648361D53D* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.ColliderSurface::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColliderSurface__ctor_m2F2825636693001759F7BA3382A97830F9175C54 (ColliderSurface_t4831BCC604F8CA661E3F8076486776DC3FC15B2E* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.CylinderSurface::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CylinderSurface__ctor_m6D88824F529DC2B9FDD9A9CA5EFA3F494258C7F3 (CylinderSurface_t4860F7819DFDDFF5CF7889F02572BB0CA482FD51* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.SphereSurface::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SphereSurface__ctor_m9F1CB578BAE306C6D3660FEA8DCB28BFE1D90DBF (SphereSurface_t032CD76396C515685EB3641037F5A819E46D5012* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.HandGrabInteractorVisual::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGrabInteractorVisual__ctor_m179B6039C7D8F8B315EDAF19D512A7F0FB38CA50 (HandGrabInteractorVisual_t75BAEF131EADDBAC1FA18E210E448E2161B4AF5E* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.DummyDataModifier::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DummyDataModifier__ctor_mD9E07EA68F920761DA4B4B76BDB4F598FCE8D62D (DummyDataModifier_t9697A00B2EE833C729C15C325713BD3C053FDF1B* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.FixedScaleDataModifier::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FixedScaleDataModifier__ctor_mE9BAF71E118CDAC357131DF2A837FF2E07A8322A (FixedScaleDataModifier_t0C4BC79CB314F63A3FE6F23EDD144DBA3C778B28* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.JointRotationHistoryModifier::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JointRotationHistoryModifier__ctor_m74F9C578C4703F97E49007125BA6E882B50C55AD (JointRotationHistoryModifier_tC19F39663A0EB67C977C0403041E5F486DDC24A8* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.LastKnownGoodDataModifier::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LastKnownGoodDataModifier__ctor_m2310F04F21D4AF648B31C45E5C6BB98BC5A5B0CA (LastKnownGoodDataModifier_t80A78C5ECFB38E898AC5CE2FE9B8F3DDD112922C* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.OneEuroFilterPositionDataModifier::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterPositionDataModifier__ctor_m2AC97FD9FB1F6B5862ED1074B10F75DDDE955073 (OneEuroFilterPositionDataModifier_t5B3CB83D9A08142C0C38588D2E4DEE16FB0A37BC* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.OneEuroFilterPositionHand::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterPositionHand__ctor_mF2710B975774400A54AECB101F840E5FA810D4D9 (OneEuroFilterPositionHand_t1E88DED99F1BEF1043B5EB4431CA3CD0D9C277DC* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.OneEuroFilterRotationDataModifier::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterRotationDataModifier__ctor_m8B7E4A57F5649BFE21C63F474A9923FCA69BB3CD (OneEuroFilterRotationDataModifier_tAD359702D9F84B8159042B94BE0E5AB29A97500E* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.OneEuroFilterRotationHand::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneEuroFilterRotationHand__ctor_m9B416A49D00680DA3360A900FD229336937C3304 (OneEuroFilterRotationHand_t7DFF718617607C32DDAC6681A1BBB9FB8A295137* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.SyntheticHandModifier::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SyntheticHandModifier__ctor_mDBE3D14C2D21839B6DF01C8CA4681A2B033E8A17 (SyntheticHandModifier_t59CA9B8F4D363EA2846F84E1CF9B9D7FDE05F16F* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.JointLocking::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JointLocking__ctor_m2B510082FA2944D8DBDE242EF0D115AC95D3434D (JointLocking_t7E9BB5955E0CCE41E59BD886BED92798FC6B2038* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.InputDataProviderUpdateTriggerOVR::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputDataProviderUpdateTriggerOVR__ctor_m2655F66F3FC3664BFB45470BE656BC1DCE5039D2 (InputDataProviderUpdateTriggerOVR_tE8D61AA195A58A2A96B55C036E2F36275370594B* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.OVRSkeletonDataProviders::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OVRSkeletonDataProviders__ctor_mFDF580393D609D879B30197FB760803E87DDB50B (OVRSkeletonDataProviders_t491B19DD085BF3AEB8AF66239194FD781FC26C8F* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.InteractorDriver::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractorDriver__ctor_m4139C9EEAB2DC1418F9AF7F3336037029DF3A0D5 (InteractorDriver_tCF2F3AE5B7609992F3B720446004D41630BBD4C5* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.InteractorDriverGroup::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractorDriverGroup__ctor_m59BF26B60E475175C5715ADA2BFEBF3E97A721D8 (InteractorDriverGroup_tCB165B2D74BDEBC387B9EA115373DCBA1DCF5106* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.TagInteractableFilter::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TagInteractableFilter__ctor_m4345FEA73D07DAC5065F8ECBD339557F3576433A (TagInteractableFilter_tAD802DE1C9042EDFC3CF23C3E417C07E404BAAB7* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.PointableGrabbableConnection::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointableGrabbableConnection__ctor_mC73E8C7B5F691BD01328B0FA78128AAED563F63A (PointableGrabbableConnection_tB8AE282D8D737108197C155D0180D63E05AD9EDA* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.DropZoneInteractable::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DropZoneInteractable__ctor_mF06BFA571356D58BD778E2C1972D62389111B2C5 (DropZoneInteractable_t92FD1C2B60E67DB2097732DFE98E8E069E3F9A0D* __this, const RuntimeMethod* method) 
-{
-	{
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.DropZoneInteractor::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DropZoneInteractor__ctor_m90A035B3A7F2C1A9B5BDB2AC6E0C881A97B314C3 (DropZoneInteractor_t2BD9710EB716126AA66899B10B8080C0B8558B78* __this, const RuntimeMethod* method) 
-{
-	{
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.DropZoneSequentialSlotsProvider::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DropZoneSequentialSlotsProvider__ctor_m69C4FBE80013C51158CA5B83CFC5592EB2E3D09A (DropZoneSequentialSlotsProvider_t6AFDE2C241DAD92CBF05FFE03D5FB904E66E730D* __this, const RuntimeMethod* method) 
-{
-	{
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.GrabPointsPoseFinder::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabPointsPoseFinder__ctor_m75B6C56C11454689E43549C791FEA7AAC035E09B (GrabPointsPoseFinder_t225254CA171C154FF956737F8AEF81B08531B663* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.HandGrabInteractionUtilities::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGrabInteractionUtilities__ctor_mBC4A4695E6E253D5C87EF180FFEF6EDFC6045015 (HandGrabInteractionUtilities_t938018C797EBE51065FF75A77AECA109EA7E157E* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.HandGrabPoint::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGrabPoint__ctor_mC195008F3103B5AA678E5ADFED8AC25CEB2953FD (HandGrabPoint_tB8D7EC4231DB7A46991B4A7B4FB63ACB6B2E0D53* __this, const RuntimeMethod* method) 
-{
-	{
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.SnapAddress::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SnapAddress__ctor_m3B706DD99744A2493ACCE4AB55EC7AF911D2E10D (SnapAddress_t9D4550D9A0DC7D5E9E69904CA9A503176EC0360B* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.RayInteractorDebugPolylineGizmos::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RayInteractorDebugPolylineGizmos__ctor_m08A8FA5FB3622D0C8A00EE9D0ABCF0AFC5D1B6E0 (RayInteractorDebugPolylineGizmos_t931C944C882AE1D37E0941BFACFD00BA7133F403* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.PointableDebugPolylineGizmos::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointableDebugPolylineGizmos__ctor_m594235DD2648776D55411715DF97B0FE9CEAA610 (PointableDebugPolylineGizmos_t2DE45A6E8897D347D67431E94F432F20343FA568* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.PointableGroup::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointableGroup__ctor_m7FF070A1D2B2422B416D276C191D144B9FDADD9E (PointableGroup_tEB6216FE5245F1F17C4C196C7C061C0A69660A06* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.PointableCylinder::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointableCylinder__ctor_mD7B373CC191566DB1767E60932F29142373D7904 (PointableCylinder_t0C622E2EC0209FE17B5AAEEDAF5E4514B285FE61* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.PointablePlane::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointablePlane__ctor_mD7793C7CD5C15072761BA5E15E884CA2E52C33C1 (PointablePlane_tD38A2A22EBDDF1077C931746C84013F9AB8E73B8* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.GrabPoint::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabPoint__ctor_m595907CF5C5D3EF04D928B178363627E62C5E692 (GrabPoint_tF1744AF0289E825C7C63D10B1FA2BE545DDEE985* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.InteractableTransformableConnection::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractableTransformableConnection__ctor_m6C8C3D619620AA67FD11B34C09F93E1713E4D1FA (InteractableTransformableConnection_tB872442B5A31F08BCB12A7270EAB415F82F7BA6E* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.OneHandFreeTransformer::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneHandFreeTransformer__ctor_m874D76B537F24DC5DD00EC00C884623CD393040E (OneHandFreeTransformer_t571E099023652EED3F3C15D41409FC531ABB778B* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.OneHandPhysicsJointTransformer::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneHandPhysicsJointTransformer__ctor_m9DE77036FB7AD03F4D95CB702966FAB0BD1676BD (OneHandPhysicsJointTransformer_t4C159D48CF783C45378E718AA6F5DB6D7E47E6E3* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.OneHandRotateTransformer::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneHandRotateTransformer__ctor_m3A7B55E87E48FB73EC3C0BC439E37D4129519D63 (OneHandRotateTransformer_tEE2AC7B0C36D7211445C1A309688F4A4B367A988* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.OneHandTranslateTransformer::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneHandTranslateTransformer__ctor_mE4FAC9ACDBD337C9168EBCA2CE08D65485EDCD31 (OneHandTranslateTransformer_t64D5E9E2C0A42EE79C58F5929131FBBBEBD86C7F* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.SnapPoint::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SnapPoint__ctor_mCA1B3E0216D382D49D1CF8E8B4726353ED68F5FD (SnapPoint_t61DC9883BEC8539C7C51CC7C98E5C28B4FEDF6E6* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.Transformable::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transformable__ctor_m94DFA9B2DA02F0377FA2833A577719BAEFD79BD4 (Transformable_tBBAF38A85C229EA188DB5F5A6A42008F3B672993* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.TwoHandFreeTransformer::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TwoHandFreeTransformer__ctor_mEB07358952A8BA6ACE7F63038072F8F06E7E7C3C (TwoHandFreeTransformer_tB5076772ECD47864807B3F53631E18DE1C77EB9E* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.TwoHandPlaneTransformer::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TwoHandPlaneTransformer__ctor_mBD8470876630FA91BE3C5363DEE6CB9C9D57F1E4 (TwoHandPlaneTransformer_t8DE5F7E27BBF9683D3A7E7754A1D6ABC8B91CB34* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.PolylineGizmos::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolylineGizmos__ctor_m0394AE1D48B493931A4425B4B2C10173100B9C84 (PolylineGizmos_tF07843F74110BB21FAA28205531CA6536815A1C8* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.CanvasMeshPointable::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasMeshPointable__ctor_m5001831F2B2FAEB206405B7463300DA25D67C9D9 (CanvasMeshPointable_t92C4339B214CCD9D4096F3BA1AF24A80D198BEE9* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.InteractionOVRCameraRig::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionOVRCameraRig__ctor_m3DE6A6CAE43B9EDA2706DB48CD78AB37D7504BA2 (InteractionOVRCameraRig_t894006BD25A6C50C219E97034AC474D54671558D* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.PhysicsTransformable::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhysicsTransformable__ctor_m77CB4E951916E7554F3E45EE9C14A19AD686D8AD (PhysicsTransformable_t387F108E92330DCE5547F4A316233A4FFF6B1926* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.TransformableUnityEventWrapper::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformableUnityEventWrapper__ctor_m7E6F876FACFC86CDF53E929DBBDBE30F7E803F7C (TransformableUnityEventWrapper_tF76B34B54AA37FD9322E031288288A7BDB5B5EE2* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.CanvasRenderTextureMesh::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderTextureMesh__ctor_mE1BFE0DDFDB67040B7E1EE7047A860B7173182CC (CanvasRenderTextureMesh_t02A4F45338938B3338617EA269FDD869F236157F* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 // System.Void Oculus.Interaction.DistanceReticles.DistantInteractionLineRendererVisual::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DistantInteractionLineRendererVisual_Start_m3D81B491EECD04C2BAAECCD0B204D0C72C06F310 (DistantInteractionLineRendererVisual_tF97547EDBBB4BD294D3F59525CF78C074399434D* __this, const RuntimeMethod* method) 
 {
@@ -30535,6 +29280,69 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGrabInteractor_U3CStartU3Eb__64_0_m7
 		// this.BeginStart(ref _started, () => base.Start());
 		Interactor_2_Start_m21F0C6A283BFB4189C1A174081B4ADF57E2461EC(__this, Interactor_2_Start_m21F0C6A283BFB4189C1A174081B4ADF57E2461EC_RuntimeMethod_var);
 		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Oculus.Interaction.HandGrab.HandGrabInteractor/<>c__DisplayClass78_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass78_0__ctor_mECA06AA2C1EF6DA303867B3FA1BA329398465A5C (U3CU3Ec__DisplayClass78_0_t5E2D622AD3B31D04722EFEE1345BDE1843652310* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// Oculus.Interaction.HandGrab.HandGrabInteractable Oculus.Interaction.HandGrab.HandGrabInteractor/<>c__DisplayClass78_0::<ForceSelect>b__0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* U3CU3Ec__DisplayClass78_0_U3CForceSelectU3Eb__0_m81D1C77E095117E226C931A986C00CAA82F8297F (U3CU3Ec__DisplayClass78_0_t5E2D622AD3B31D04722EFEE1345BDE1843652310* __this, const RuntimeMethod* method) 
+{
+	{
+		// SetComputeCandidateOverride(() => interactable);
+		HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* L_0 = __this->___interactable_0;
+		return L_0;
+	}
+}
+// System.Boolean Oculus.Interaction.HandGrab.HandGrabInteractor/<>c__DisplayClass78_0::<ForceSelect>b__1()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass78_0_U3CForceSelectU3Eb__1_mC571CCC51733FFB5478F034510DEF01C3B3D8DB1 (U3CU3Ec__DisplayClass78_0_t5E2D622AD3B31D04722EFEE1345BDE1843652310* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Interactor_2_get_Interactable_m29FFFE8E535715EB21D49E0A00CC5B4146593CFD_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// SetComputeShouldSelectOverride(() => ReferenceEquals(interactable, Interactable));
+		HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* L_0 = __this->___interactable_0;
+		HandGrabInteractor_t9A01E021BC9142BD8CCE6BC1458A89E38CF8152D* L_1 = __this->___U3CU3E4__this_1;
+		NullCheck(L_1);
+		HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* L_2;
+		L_2 = Interactor_2_get_Interactable_m29FFFE8E535715EB21D49E0A00CC5B4146593CFD_inline(L_1, Interactor_2_get_Interactable_m29FFFE8E535715EB21D49E0A00CC5B4146593CFD_RuntimeMethod_var);
+		return (bool)((((RuntimeObject*)(HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127*)L_0) == ((RuntimeObject*)(HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127*)L_2))? 1 : 0);
+	}
+}
+// System.Boolean Oculus.Interaction.HandGrab.HandGrabInteractor/<>c__DisplayClass78_0::<ForceSelect>b__2()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass78_0_U3CForceSelectU3Eb__2_m4634F8E9A3EA7CF4F12CD70C941FBE442967C1C4 (U3CU3Ec__DisplayClass78_0_t5E2D622AD3B31D04722EFEE1345BDE1843652310* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Interactor_2_get_SelectedInteractable_m925884EB3C214482EBE3128C9B0F3067B359B6AC_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// SetComputeShouldUnselectOverride(() => !ReferenceEquals(interactable, SelectedInteractable), false);
+		HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* L_0 = __this->___interactable_0;
+		HandGrabInteractor_t9A01E021BC9142BD8CCE6BC1458A89E38CF8152D* L_1 = __this->___U3CU3E4__this_1;
+		NullCheck(L_1);
+		HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* L_2;
+		L_2 = Interactor_2_get_SelectedInteractable_m925884EB3C214482EBE3128C9B0F3067B359B6AC_inline(L_1, Interactor_2_get_SelectedInteractable_m925884EB3C214482EBE3128C9B0F3067B359B6AC_RuntimeMethod_var);
+		return (bool)((((int32_t)((((RuntimeObject*)(HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127*)L_0) == ((RuntimeObject*)(HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127*)L_2))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
 #ifdef __clang__

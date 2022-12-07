@@ -95,8 +95,6 @@ struct Action_1_t16439AC0253118742562394ACC7B97D80B44200D;
 struct CollisionInteractionRegistry_2_t3D4A569998A2C68ACE15A065E19706DFBAFAD82A;
 // System.Func`1<System.Boolean>
 struct Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457;
-// System.Func`1<Oculus.Interaction.HandGrab.HandGrabInteractable>
-struct Func_1_tAD40283C53A59B14D0B6BA51E05D3DEA90D48058;
 // System.Func`1<Oculus.Interaction.HandGrab.HandGrabUseInteractable>
 struct Func_1_tE16FC4AD7BA30311615F106ADF829CCCD07D6924;
 // System.Func`1<System.Object>
@@ -123,8 +121,6 @@ struct InteractableRegistry_2_t8EFC4239DE1EFD29A8A89A869EE7B5A824303B7D;
 struct Interactable_2_tC2F55168D9A586C053A2B4DC4686A8134DCDCB51;
 // Oculus.Interaction.Interactable`2<System.Object,System.Object>
 struct Interactable_2_t632FBB168CB990D64A8675C1947BBB76A646714F;
-// Oculus.Interaction.Interactor`2<Oculus.Interaction.HandGrab.HandGrabInteractor,Oculus.Interaction.HandGrab.HandGrabInteractable>
-struct Interactor_2_tDEB8B502D4B8649495429A2D3C8C19FBB586856A;
 // Oculus.Interaction.Interactor`2<Oculus.Interaction.HandGrab.HandGrabUseInteractor,Oculus.Interaction.HandGrab.HandGrabUseInteractable>
 struct Interactor_2_t97A56A173D43E0EDF08F050226C6432B3D9F7E8B;
 // Oculus.Interaction.Interactor`2<System.Object,System.Object>
@@ -145,8 +141,6 @@ struct List_1_tCB9190A56C65FD59CE07C6A0EA71F30067A43D81;
 struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
 // System.Collections.Generic.List`1<Oculus.Interaction.Tween/TweenCurve>
 struct List_1_tA3DDB8C7A7F18B23A830E60EE4869349D0C75546;
-// Oculus.Interaction.MultiAction`1<Oculus.Interaction.HandGrab.HandGrabInteractable>
-struct MultiAction_1_tDF8EB0C65DC073FC189A98201F9981C9BA5A466B;
 // Oculus.Interaction.MultiAction`1<Oculus.Interaction.HandGrab.HandGrabInteractor>
 struct MultiAction_1_t492B74E9266CA5C060D9FA5553EC1826D78FF9E3;
 // Oculus.Interaction.MultiAction`1<Oculus.Interaction.HandGrab.HandGrabUseInteractable>
@@ -217,12 +211,8 @@ struct GrabPoseFinder_t2FC4591CBABC43392D019EA3064277B629DF77D3;
 struct HandGhost_t13717DE6E643EE24008E97E724AA5D9DC420D154;
 // Oculus.Interaction.HandGrab.Visuals.HandGhostProvider
 struct HandGhostProvider_t4CD53E9BA943CD4AB32C1A73852996949A03428C;
-// Oculus.Interaction.GrabAPI.HandGrabAPI
-struct HandGrabAPI_tC01EECBC2ADA4AC37EC064B470A93CBD44CB8787;
 // Oculus.Interaction.HandGrab.HandGrabInteractable
 struct HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127;
-// Oculus.Interaction.HandGrab.HandGrabInteractor
-struct HandGrabInteractor_t9A01E021BC9142BD8CCE6BC1458A89E38CF8152D;
 // Oculus.Interaction.HandGrab.HandGrabPose
 struct HandGrabPose_t347682EF05B32B395F27F50DB38500405C17C633;
 // Oculus.Interaction.HandGrab.HandGrabResult
@@ -233,8 +223,6 @@ struct HandGrabTarget_t93717B2210720C2850DA2EBC5438DBDB5C8AFCC2;
 struct HandGrabUseInteractable_t7B18FA843065BC0F35943FF6E2908976DC55A1E4;
 // Oculus.Interaction.HandGrab.HandGrabUseInteractor
 struct HandGrabUseInteractor_tE6A0783D2AFEBEB1CCAD069379E40E15B551A575;
-// Oculus.Interaction.Grab.HandGrabbableData
-struct HandGrabbableData_t70DB908DBA5946A4D14E6EA8E20C2BF3B83EE7BD;
 // Oculus.Interaction.HandGrab.Visuals.HandJointMap
 struct HandJointMap_tBA77297BE072893A749541576245A4AA6B708B70;
 // Oculus.Interaction.HandGrab.HandPose
@@ -261,8 +249,6 @@ struct IMovementProvider_tF89A1ECDB010071D4F96A7E88B2343363BD834E1;
 struct IPointableElement_t5D9695CD8759D692B8F8430451929CCB2EBF63F1;
 // Oculus.Interaction.ISelector
 struct ISelector_t67FC626DAEE009248843EA2CE7425D5CDFBEE730;
-// Oculus.Interaction.Throw.IVelocityCalculator
-struct IVelocityCalculator_t330C870F0625311FBA255F43606D62282186FF39;
 // Oculus.Interaction.HandGrab.Visuals.JointCollection
 struct JointCollection_t6C7488C25C8A8BF7980457CDEBC846586F4B351C;
 // System.Reflection.MethodInfo
@@ -295,8 +281,6 @@ struct Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8;
 struct Rigidbody_t268697F5A994213ED97393309870968BC1C7393C;
 // UnityEngine.ScriptableObject
 struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A;
-// UnityEngine.SphereCollider
-struct SphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275;
 // System.String
 struct String_t;
 // UnityEngine.Transform
@@ -311,8 +295,6 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct U3CU3Ec_t4ADE3ADAA59AACC39E8C047A0511F4DA6B09C355;
 // Oculus.Interaction.HandGrab.HandGrabInteractor/<>c
 struct U3CU3Ec_tB2AB11EFE6BEFFD52D7247A90902AD2CB8E03435;
-// Oculus.Interaction.HandGrab.HandGrabInteractor/<>c__DisplayClass78_0
-struct U3CU3Ec__DisplayClass78_0_t5E2D622AD3B31D04722EFEE1345BDE1843652310;
 // Oculus.Interaction.HandGrab.HandGrabUseInteractor/<>c
 struct U3CU3Ec_t305CF150BE787812F4E63ABC093290BD02249AC6;
 // Oculus.Interaction.HandGrab.Visuals.JointCollection/<>c__DisplayClass2_0
@@ -378,10 +360,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* Interactor_2_DoSelectUpdate_m6A59653594196F
 IL2CPP_EXTERN_C const RuntimeMethod* Interactor_2_InteractableSelected_m47FDF210967D346904F484E18C885CF1EE7E8EAA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Interactor_2_InteractableUnselected_m8ABE3C31881FCD85877830A2A5824D38F2EF9E7A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Interactor_2__ctor_m763A26614E135B08429ADA69D99460D6CC5AC413_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Interactor_2_get_Interactable_m29FFFE8E535715EB21D49E0A00CC5B4146593CFD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Interactor_2_get_Interactable_m3887264B10DEFFAC3050FB7599CA8BDCC5D8A659_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Interactor_2_get_SelectedInteractable_m1AD0AC6292ED29849890DB06C5A35E3867ABB61D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Interactor_2_get_SelectedInteractable_m925884EB3C214482EBE3128C9B0F3067B359B6AC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mB7201F3DA3DAEE5E2C270A01C5DC90CDD6A2E1CC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_FindIndex_m69887F993FAA7A96E76FA52A8460787B5E695992_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Remove_mCBDEF89CB18FD67BE9ACA733E113197AC808893C_RuntimeMethod_var;
@@ -619,15 +599,6 @@ struct U3CU3Ec_tB2AB11EFE6BEFFD52D7247A90902AD2CB8E03435_StaticFields
 	Action_1_tEE448C86BCBDE5EB9960793E7C7D040085E01110* ___U3CU3E9__93_0_2;
 	// System.Action`1<Oculus.Interaction.HandGrab.IHandGrabState> Oculus.Interaction.HandGrab.HandGrabInteractor/<>c::<>9__93_1
 	Action_1_tEE448C86BCBDE5EB9960793E7C7D040085E01110* ___U3CU3E9__93_1_3;
-};
-
-// Oculus.Interaction.HandGrab.HandGrabInteractor/<>c__DisplayClass78_0
-struct U3CU3Ec__DisplayClass78_0_t5E2D622AD3B31D04722EFEE1345BDE1843652310  : public RuntimeObject
-{
-	// Oculus.Interaction.HandGrab.HandGrabInteractable Oculus.Interaction.HandGrab.HandGrabInteractor/<>c__DisplayClass78_0::interactable
-	HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* ___interactable_0;
-	// Oculus.Interaction.HandGrab.HandGrabInteractor Oculus.Interaction.HandGrab.HandGrabInteractor/<>c__DisplayClass78_0::<>4__this
-	HandGrabInteractor_t9A01E021BC9142BD8CCE6BC1458A89E38CF8152D* ___U3CU3E4__this_1;
 };
 
 // Oculus.Interaction.HandGrab.HandGrabUseInteractor/<>c
@@ -1613,71 +1584,6 @@ struct Interactable_2_t632FBB168CB990D64A8675C1947BBB76A646714F_StaticFields
 	InteractableRegistry_2_t8EFC4239DE1EFD29A8A89A869EE7B5A824303B7D* ____registry_22;
 };
 
-// Oculus.Interaction.Interactor`2<Oculus.Interaction.HandGrab.HandGrabInteractor,Oculus.Interaction.HandGrab.HandGrabInteractable>
-struct Interactor_2_tDEB8B502D4B8649495429A2D3C8C19FBB586856A  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// UnityEngine.MonoBehaviour Oculus.Interaction.Interactor`2::_activeState
-	MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* ____activeState_4;
-	// Oculus.Interaction.IActiveState Oculus.Interaction.Interactor`2::ActiveState
-	RuntimeObject* ___ActiveState_5;
-	// System.Collections.Generic.List`1<UnityEngine.MonoBehaviour> Oculus.Interaction.Interactor`2::_interactableFilters
-	List_1_tCB9190A56C65FD59CE07C6A0EA71F30067A43D81* ____interactableFilters_6;
-	// System.Collections.Generic.List`1<Oculus.Interaction.IGameObjectFilter> Oculus.Interaction.Interactor`2::InteractableFilters
-	List_1_tCC32A86B64F8E49343B08DDC627752C2AF21ACA4* ___InteractableFilters_7;
-	// System.Func`1<TInteractable> Oculus.Interaction.Interactor`2::_computeCandidateOverride
-	Func_1_tAD40283C53A59B14D0B6BA51E05D3DEA90D48058* ____computeCandidateOverride_8;
-	// System.Boolean Oculus.Interaction.Interactor`2::_clearComputeCandidateOverrideOnSelect
-	bool ____clearComputeCandidateOverrideOnSelect_9;
-	// System.Func`1<System.Boolean> Oculus.Interaction.Interactor`2::_computeShouldSelectOverride
-	Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* ____computeShouldSelectOverride_10;
-	// System.Boolean Oculus.Interaction.Interactor`2::_clearComputeShouldSelectOverrideOnSelect
-	bool ____clearComputeShouldSelectOverrideOnSelect_11;
-	// System.Func`1<System.Boolean> Oculus.Interaction.Interactor`2::_computeShouldUnselectOverride
-	Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* ____computeShouldUnselectOverride_12;
-	// System.Boolean Oculus.Interaction.Interactor`2::_clearComputeShouldUnselectOverrideOnUnselect
-	bool ____clearComputeShouldUnselectOverrideOnUnselect_13;
-	// Oculus.Interaction.InteractorState Oculus.Interaction.Interactor`2::_state
-	int32_t ____state_14;
-	// System.Action`1<Oculus.Interaction.InteractorStateChangeArgs> Oculus.Interaction.Interactor`2::WhenStateChanged
-	Action_1_tF10F105A4DDC047C8B0A5EACE0FDADCE23B3D513* ___WhenStateChanged_15;
-	// System.Action Oculus.Interaction.Interactor`2::WhenPreprocessed
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___WhenPreprocessed_16;
-	// System.Action Oculus.Interaction.Interactor`2::WhenProcessed
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___WhenProcessed_17;
-	// System.Action Oculus.Interaction.Interactor`2::WhenPostprocessed
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___WhenPostprocessed_18;
-	// Oculus.Interaction.ISelector Oculus.Interaction.Interactor`2::_selector
-	RuntimeObject* ____selector_19;
-	// System.Int32 Oculus.Interaction.Interactor`2::_maxIterationsPerFrame
-	int32_t ____maxIterationsPerFrame_20;
-	// System.Collections.Generic.Queue`1<System.Boolean> Oculus.Interaction.Interactor`2::_selectorQueue
-	Queue_1_t803CA034D040E531D06237F0C5EB6DFE225B3B77* ____selectorQueue_21;
-	// TInteractable Oculus.Interaction.Interactor`2::_candidate
-	HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* ____candidate_22;
-	// TInteractable Oculus.Interaction.Interactor`2::_interactable
-	HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* ____interactable_23;
-	// TInteractable Oculus.Interaction.Interactor`2::_selectedInteractable
-	HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* ____selectedInteractable_24;
-	// Oculus.Interaction.MultiAction`1<TInteractable> Oculus.Interaction.Interactor`2::_whenInteractableSet
-	MultiAction_1_tDF8EB0C65DC073FC189A98201F9981C9BA5A466B* ____whenInteractableSet_25;
-	// Oculus.Interaction.MultiAction`1<TInteractable> Oculus.Interaction.Interactor`2::_whenInteractableUnset
-	MultiAction_1_tDF8EB0C65DC073FC189A98201F9981C9BA5A466B* ____whenInteractableUnset_26;
-	// Oculus.Interaction.MultiAction`1<TInteractable> Oculus.Interaction.Interactor`2::_whenInteractableSelected
-	MultiAction_1_tDF8EB0C65DC073FC189A98201F9981C9BA5A466B* ____whenInteractableSelected_27;
-	// Oculus.Interaction.MultiAction`1<TInteractable> Oculus.Interaction.Interactor`2::_whenInteractableUnselected
-	MultiAction_1_tDF8EB0C65DC073FC189A98201F9981C9BA5A466B* ____whenInteractableUnselected_28;
-	// Oculus.Interaction.UniqueIdentifier Oculus.Interaction.Interactor`2::_identifier
-	UniqueIdentifier_t2CFA79939EF9F08A544BAA867445202C60871342* ____identifier_29;
-	// UnityEngine.Object Oculus.Interaction.Interactor`2::_data
-	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ____data_30;
-	// System.Object Oculus.Interaction.Interactor`2::<Data>k__BackingField
-	RuntimeObject* ___U3CDataU3Ek__BackingField_31;
-	// System.Boolean Oculus.Interaction.Interactor`2::_started
-	bool ____started_32;
-	// System.Boolean Oculus.Interaction.Interactor`2::<IsRootDriver>k__BackingField
-	bool ___U3CIsRootDriverU3Ek__BackingField_33;
-};
-
 // Oculus.Interaction.Interactor`2<Oculus.Interaction.HandGrab.HandGrabUseInteractor,Oculus.Interaction.HandGrab.HandGrabUseInteractable>
 struct Interactor_2_t97A56A173D43E0EDF08F050226C6432B3D9F7E8B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -1904,11 +1810,6 @@ struct PointerInteractable_2_t8BF63CEBEF62497024EAE339EF9406311B875CF9  : public
 	bool ____started_26;
 };
 
-// Oculus.Interaction.PointerInteractor`2<Oculus.Interaction.HandGrab.HandGrabInteractor,Oculus.Interaction.HandGrab.HandGrabInteractable>
-struct PointerInteractor_2_t82B2BA88782F3AB6AEDC75F0FCB9A93310D6302B  : public Interactor_2_tDEB8B502D4B8649495429A2D3C8C19FBB586856A
-{
-};
-
 // Oculus.Interaction.HandGrab.HandGrabUseInteractable
 struct HandGrabUseInteractable_t7B18FA843065BC0F35943FF6E2908976DC55A1E4  : public Interactable_2_tC2F55168D9A586C053A2B4DC4686A8134DCDCB51
 {
@@ -2000,65 +1901,6 @@ struct HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127_StaticFiel
 {
 	// Oculus.Interaction.CollisionInteractionRegistry`2<Oculus.Interaction.HandGrab.HandGrabInteractor,Oculus.Interaction.HandGrab.HandGrabInteractable> Oculus.Interaction.HandGrab.HandGrabInteractable::_registry
 	CollisionInteractionRegistry_2_t3D4A569998A2C68ACE15A065E19706DFBAFAD82A* ____registry_40;
-};
-
-// Oculus.Interaction.HandGrab.HandGrabInteractor
-struct HandGrabInteractor_t9A01E021BC9142BD8CCE6BC1458A89E38CF8152D  : public PointerInteractor_2_t82B2BA88782F3AB6AEDC75F0FCB9A93310D6302B
-{
-	// UnityEngine.MonoBehaviour Oculus.Interaction.HandGrab.HandGrabInteractor::_hand
-	MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* ____hand_34;
-	// Oculus.Interaction.Input.IHand Oculus.Interaction.HandGrab.HandGrabInteractor::<Hand>k__BackingField
-	RuntimeObject* ___U3CHandU3Ek__BackingField_35;
-	// UnityEngine.Rigidbody Oculus.Interaction.HandGrab.HandGrabInteractor::_rigidbody
-	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ____rigidbody_36;
-	// Oculus.Interaction.GrabAPI.HandGrabAPI Oculus.Interaction.HandGrab.HandGrabInteractor::_handGrabApi
-	HandGrabAPI_tC01EECBC2ADA4AC37EC064B470A93CBD44CB8787* ____handGrabApi_37;
-	// Oculus.Interaction.Grab.GrabTypeFlags Oculus.Interaction.HandGrab.HandGrabInteractor::_supportedGrabTypes
-	int32_t ____supportedGrabTypes_38;
-	// System.Boolean Oculus.Interaction.HandGrab.HandGrabInteractor::_hoverOnZeroStrength
-	bool ____hoverOnZeroStrength_39;
-	// UnityEngine.Transform Oculus.Interaction.HandGrab.HandGrabInteractor::_gripPoint
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____gripPoint_40;
-	// UnityEngine.SphereCollider Oculus.Interaction.HandGrab.HandGrabInteractor::_gripCollider
-	SphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275* ____gripCollider_41;
-	// UnityEngine.Transform Oculus.Interaction.HandGrab.HandGrabInteractor::_pinchPoint
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____pinchPoint_42;
-	// UnityEngine.SphereCollider Oculus.Interaction.HandGrab.HandGrabInteractor::_pinchCollider
-	SphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275* ____pinchCollider_43;
-	// UnityEngine.MonoBehaviour Oculus.Interaction.HandGrab.HandGrabInteractor::_velocityCalculator
-	MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* ____velocityCalculator_44;
-	// Oculus.Interaction.Throw.IVelocityCalculator Oculus.Interaction.HandGrab.HandGrabInteractor::<VelocityCalculator>k__BackingField
-	RuntimeObject* ___U3CVelocityCalculatorU3Ek__BackingField_45;
-	// Oculus.Interaction.HandGrab.HandGrabTarget Oculus.Interaction.HandGrab.HandGrabInteractor::_currentTarget
-	HandGrabTarget_t93717B2210720C2850DA2EBC5438DBDB5C8AFCC2* ____currentTarget_46;
-	// Oculus.Interaction.HandGrab.HandGrabResult Oculus.Interaction.HandGrab.HandGrabInteractor::_cachedResult
-	HandGrabResult_t37DAB6889D8422B1C6E1A7AB491E3B2E47A0CB9B* ____cachedResult_47;
-	// Oculus.Interaction.IMovement Oculus.Interaction.HandGrab.HandGrabInteractor::_movement
-	RuntimeObject* ____movement_48;
-	// UnityEngine.Pose Oculus.Interaction.HandGrab.HandGrabInteractor::_wristToGrabAnchorOffset
-	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ____wristToGrabAnchorOffset_49;
-	// UnityEngine.Pose Oculus.Interaction.HandGrab.HandGrabInteractor::_wristPose
-	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ____wristPose_50;
-	// UnityEngine.Pose Oculus.Interaction.HandGrab.HandGrabInteractor::_gripPose
-	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ____gripPose_51;
-	// UnityEngine.Pose Oculus.Interaction.HandGrab.HandGrabInteractor::_pinchPose
-	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ____pinchPose_52;
-	// Oculus.Interaction.Grab.HandGrabbableData Oculus.Interaction.HandGrab.HandGrabInteractor::_lastInteractableData
-	HandGrabbableData_t70DB908DBA5946A4D14E6EA8E20C2BF3B83EE7BD* ____lastInteractableData_53;
-	// System.Boolean Oculus.Interaction.HandGrab.HandGrabInteractor::_handGrabShouldSelect
-	bool ____handGrabShouldSelect_54;
-	// System.Boolean Oculus.Interaction.HandGrab.HandGrabInteractor::_handGrabShouldUnselect
-	bool ____handGrabShouldUnselect_55;
-	// Oculus.Interaction.HandGrab.HandGrabInteractable Oculus.Interaction.HandGrab.HandGrabInteractor::_selectedInteractableOverride
-	HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* ____selectedInteractableOverride_56;
-	// System.Single Oculus.Interaction.HandGrab.HandGrabInteractor::_grabStrength
-	float ____grabStrength_57;
-	// Oculus.Interaction.HandGrab.HandGrabTarget Oculus.Interaction.HandGrab.HandGrabInteractor::<HandGrabTarget>k__BackingField
-	HandGrabTarget_t93717B2210720C2850DA2EBC5438DBDB5C8AFCC2* ___U3CHandGrabTargetU3Ek__BackingField_58;
-	// System.Action`1<Oculus.Interaction.HandGrab.IHandGrabState> Oculus.Interaction.HandGrab.HandGrabInteractor::<WhenHandGrabStarted>k__BackingField
-	Action_1_tEE448C86BCBDE5EB9960793E7C7D040085E01110* ___U3CWhenHandGrabStartedU3Ek__BackingField_59;
-	// System.Action`1<Oculus.Interaction.HandGrab.IHandGrabState> Oculus.Interaction.HandGrab.HandGrabInteractor::<WhenHandGrabEnded>k__BackingField
-	Action_1_tEE448C86BCBDE5EB9960793E7C7D040085E01110* ___U3CWhenHandGrabEndedU3Ek__BackingField_60;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -2306,10 +2148,6 @@ IL2CPP_EXTERN_C void AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_ma
 IL2CPP_EXTERN_C void AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshal_com_back(const AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshaled_com& marshaled, AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354& unmarshaled);
 IL2CPP_EXTERN_C void AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshal_com_cleanup(AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshaled_com& marshaled);
 
-// TInteractable Oculus.Interaction.Interactor`2<System.Object,System.Object>::get_Interactable()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Interactor_2_get_Interactable_mF7BA57CB616205BA5E3AA22FA8FC51AEC21CDF0D_gshared_inline (Interactor_2_tB69FAA3485595D33B3457BF46F7B1207B8811F32* __this, const RuntimeMethod* method) ;
-// TInteractable Oculus.Interaction.Interactor`2<System.Object,System.Object>::get_SelectedInteractable()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Interactor_2_get_SelectedInteractable_m41004AA167C324EB9F1E1CE294883634C5A67D06_gshared_inline (Interactor_2_tB69FAA3485595D33B3457BF46F7B1207B8811F32* __this, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponentInParent<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponentInParent_TisRuntimeObject_m6746D6BB99912B1B509746C993906492F86CD119_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Object>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
@@ -2328,6 +2166,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D6479
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
 // System.Void Oculus.Interaction.Interactable`2<System.Object,System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interactable_2__ctor_mE447B6ED1772A1744902556DEF8FA2070DC035F0_gshared (Interactable_2_t632FBB168CB990D64A8675C1947BBB76A646714F* __this, const RuntimeMethod* method) ;
+// TInteractable Oculus.Interaction.Interactor`2<System.Object,System.Object>::get_SelectedInteractable()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Interactor_2_get_SelectedInteractable_m41004AA167C324EB9F1E1CE294883634C5A67D06_gshared_inline (Interactor_2_tB69FAA3485595D33B3457BF46F7B1207B8811F32* __this, const RuntimeMethod* method) ;
 // System.Void Oculus.Interaction.Interactor`2<System.Object,System.Object>::Awake()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interactor_2_Awake_mD37E95AE48AC3ED843805450946BAACDBEBB3B0B_gshared (Interactor_2_tB69FAA3485595D33B3457BF46F7B1207B8811F32* __this, const RuntimeMethod* method) ;
 // System.Void Oculus.Interaction.Interactor`2<System.Object,System.Object>::InteractableSelected(TInteractable)
@@ -2336,6 +2176,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interactor_2_InteractableSelected_m68CD8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interactor_2_InteractableUnselected_mFC988BF3E485BDED6969BBBB0B9130868EC6BC0D_gshared (Interactor_2_tB69FAA3485595D33B3457BF46F7B1207B8811F32* __this, RuntimeObject* ___interactable0, const RuntimeMethod* method) ;
 // System.Void Oculus.Interaction.Interactor`2<System.Object,System.Object>::DoHoverUpdate()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interactor_2_DoHoverUpdate_mE05EECB8EC62A2DEBF43EBD8E0EBA59C031483FA_gshared (Interactor_2_tB69FAA3485595D33B3457BF46F7B1207B8811F32* __this, const RuntimeMethod* method) ;
+// TInteractable Oculus.Interaction.Interactor`2<System.Object,System.Object>::get_Interactable()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Interactor_2_get_Interactable_mF7BA57CB616205BA5E3AA22FA8FC51AEC21CDF0D_gshared_inline (Interactor_2_tB69FAA3485595D33B3457BF46F7B1207B8811F32* __this, const RuntimeMethod* method) ;
 // System.Void Oculus.Interaction.Interactor`2<System.Object,System.Object>::DoSelectUpdate()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interactor_2_DoSelectUpdate_m02F6911604E854CD9533809C0ED01C7B085064A2_gshared (Interactor_2_tB69FAA3485595D33B3457BF46F7B1207B8811F32* __this, const RuntimeMethod* method) ;
 // Oculus.Interaction.InteractableRegistry`2<TInteractor,TInteractable> Oculus.Interaction.Interactable`2<System.Object,System.Object>::get_Registry()
@@ -2361,20 +2203,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t List_1_FindIndex_m9875FFE328FA833B261
 // System.Void System.Collections.Generic.List`1<System.Object>::.ctor(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m76CBBC3E2F0583F5AD30CE592CEA1225C06A0428_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___capacity0, const RuntimeMethod* method) ;
 
-// System.Void System.Object::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
-// TInteractable Oculus.Interaction.Interactor`2<Oculus.Interaction.HandGrab.HandGrabInteractor,Oculus.Interaction.HandGrab.HandGrabInteractable>::get_Interactable()
-inline HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* Interactor_2_get_Interactable_m29FFFE8E535715EB21D49E0A00CC5B4146593CFD_inline (Interactor_2_tDEB8B502D4B8649495429A2D3C8C19FBB586856A* __this, const RuntimeMethod* method)
-{
-	return ((  HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* (*) (Interactor_2_tDEB8B502D4B8649495429A2D3C8C19FBB586856A*, const RuntimeMethod*))Interactor_2_get_Interactable_mF7BA57CB616205BA5E3AA22FA8FC51AEC21CDF0D_gshared_inline)(__this, method);
-}
-// TInteractable Oculus.Interaction.Interactor`2<Oculus.Interaction.HandGrab.HandGrabInteractor,Oculus.Interaction.HandGrab.HandGrabInteractable>::get_SelectedInteractable()
-inline HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* Interactor_2_get_SelectedInteractable_m925884EB3C214482EBE3128C9B0F3067B359B6AC_inline (Interactor_2_tDEB8B502D4B8649495429A2D3C8C19FBB586856A* __this, const RuntimeMethod* method)
-{
-	return ((  HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* (*) (Interactor_2_tDEB8B502D4B8649495429A2D3C8C19FBB586856A*, const RuntimeMethod*))Interactor_2_get_SelectedInteractable_m41004AA167C324EB9F1E1CE294883634C5A67D06_gshared_inline)(__this, method);
-}
 // System.Void Oculus.Interaction.HandGrab.HandGrabInteractor/<>c::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m968AB0E6E8B279BD5E4957CE3F93A2DD720FC1B9 (U3CU3Ec_tB2AB11EFE6BEFFD52D7247A90902AD2CB8E03435* __this, const RuntimeMethod* method) ;
+// System.Void System.Object::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // UnityEngine.Transform UnityEngine.Component::get_transform()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Transform::get_lossyScale()
@@ -2882,69 +2714,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_IsEqualUsingDot_m
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___vector0, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Vector3::op_Division(UnityEngine.Vector3,System.Single)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, float ___d1, const RuntimeMethod* method) ;
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.HandGrab.HandGrabInteractor/<>c__DisplayClass78_0::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass78_0__ctor_mECA06AA2C1EF6DA303867B3FA1BA329398465A5C (U3CU3Ec__DisplayClass78_0_t5E2D622AD3B31D04722EFEE1345BDE1843652310* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-// Oculus.Interaction.HandGrab.HandGrabInteractable Oculus.Interaction.HandGrab.HandGrabInteractor/<>c__DisplayClass78_0::<ForceSelect>b__0()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* U3CU3Ec__DisplayClass78_0_U3CForceSelectU3Eb__0_m81D1C77E095117E226C931A986C00CAA82F8297F (U3CU3Ec__DisplayClass78_0_t5E2D622AD3B31D04722EFEE1345BDE1843652310* __this, const RuntimeMethod* method) 
-{
-	{
-		// SetComputeCandidateOverride(() => interactable);
-		HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* L_0 = __this->___interactable_0;
-		return L_0;
-	}
-}
-// System.Boolean Oculus.Interaction.HandGrab.HandGrabInteractor/<>c__DisplayClass78_0::<ForceSelect>b__1()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass78_0_U3CForceSelectU3Eb__1_mC571CCC51733FFB5478F034510DEF01C3B3D8DB1 (U3CU3Ec__DisplayClass78_0_t5E2D622AD3B31D04722EFEE1345BDE1843652310* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Interactor_2_get_Interactable_m29FFFE8E535715EB21D49E0A00CC5B4146593CFD_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// SetComputeShouldSelectOverride(() => ReferenceEquals(interactable, Interactable));
-		HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* L_0 = __this->___interactable_0;
-		HandGrabInteractor_t9A01E021BC9142BD8CCE6BC1458A89E38CF8152D* L_1 = __this->___U3CU3E4__this_1;
-		NullCheck(L_1);
-		HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* L_2;
-		L_2 = Interactor_2_get_Interactable_m29FFFE8E535715EB21D49E0A00CC5B4146593CFD_inline(L_1, Interactor_2_get_Interactable_m29FFFE8E535715EB21D49E0A00CC5B4146593CFD_RuntimeMethod_var);
-		return (bool)((((RuntimeObject*)(HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127*)L_0) == ((RuntimeObject*)(HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127*)L_2))? 1 : 0);
-	}
-}
-// System.Boolean Oculus.Interaction.HandGrab.HandGrabInteractor/<>c__DisplayClass78_0::<ForceSelect>b__2()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass78_0_U3CForceSelectU3Eb__2_m4634F8E9A3EA7CF4F12CD70C941FBE442967C1C4 (U3CU3Ec__DisplayClass78_0_t5E2D622AD3B31D04722EFEE1345BDE1843652310* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Interactor_2_get_SelectedInteractable_m925884EB3C214482EBE3128C9B0F3067B359B6AC_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// SetComputeShouldUnselectOverride(() => !ReferenceEquals(interactable, SelectedInteractable), false);
-		HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* L_0 = __this->___interactable_0;
-		HandGrabInteractor_t9A01E021BC9142BD8CCE6BC1458A89E38CF8152D* L_1 = __this->___U3CU3E4__this_1;
-		NullCheck(L_1);
-		HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127* L_2;
-		L_2 = Interactor_2_get_SelectedInteractable_m925884EB3C214482EBE3128C9B0F3067B359B6AC_inline(L_1, Interactor_2_get_SelectedInteractable_m925884EB3C214482EBE3128C9B0F3067B359B6AC_RuntimeMethod_var);
-		return (bool)((((int32_t)((((RuntimeObject*)(HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127*)L_0) == ((RuntimeObject*)(HandGrabInteractable_tAA4FA87F97EBE085B00C9989B64494E72E717127*)L_2))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -10174,11 +9943,10 @@ IL_0014:
 		return L_3;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Interactor_2_get_Interactable_mF7BA57CB616205BA5E3AA22FA8FC51AEC21CDF0D_gshared_inline (Interactor_2_tB69FAA3485595D33B3457BF46F7B1207B8811F32* __this, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
 {
 	{
-		// public TInteractable Interactable => _interactable;
-		RuntimeObject* L_0 = (RuntimeObject*)__this->____interactable_23;
+		int32_t L_0 = (int32_t)__this->____size_2;
 		return L_0;
 	}
 }
@@ -10190,10 +9958,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Interactor_2_get_S
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Interactor_2_get_Interactable_mF7BA57CB616205BA5E3AA22FA8FC51AEC21CDF0D_gshared_inline (Interactor_2_tB69FAA3485595D33B3457BF46F7B1207B8811F32* __this, const RuntimeMethod* method) 
 {
 	{
-		int32_t L_0 = (int32_t)__this->____size_2;
+		// public TInteractable Interactable => _interactable;
+		RuntimeObject* L_0 = (RuntimeObject*)__this->____interactable_23;
 		return L_0;
 	}
 }

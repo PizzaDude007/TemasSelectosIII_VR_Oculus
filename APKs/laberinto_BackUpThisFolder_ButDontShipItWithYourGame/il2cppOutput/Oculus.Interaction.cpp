@@ -568,8 +568,6 @@ struct SecondaryInteractorFilter_t592A2906F199F187643CC9EAAFBC6BA015703C29;
 struct SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37;
 // System.String
 struct String_t;
-// Oculus.Interaction.TagMonoBehaviourFilter
-struct TagMonoBehaviourFilter_t828796ECFA3840178C27A2EAEAC1CF7867A3FBB8;
 // Oculus.Interaction.TagSet
 struct TagSet_t5349668073CEC8B05C55211650DC15C72E13BA64;
 // Oculus.Interaction.TagSetFilter
@@ -3841,11 +3839,6 @@ struct SecondaryInteractorFilter_t592A2906F199F187643CC9EAAFBC6BA015703C29  : pu
 	Dictionary_2_t209CDE01C85870E1FA1B9D5C35FA4757320775C8* ____primaryToSecondaryMap_9;
 	// System.Boolean Oculus.Interaction.SecondaryInteractorFilter::_started
 	bool ____started_10;
-};
-
-// Oculus.Interaction.TagMonoBehaviourFilter
-struct TagMonoBehaviourFilter_t828796ECFA3840178C27A2EAEAC1CF7867A3FBB8  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
 };
 
 // Oculus.Interaction.TagSet
@@ -20391,22 +20384,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SecondaryInteractorFilter_InjectSelectRe
 }
 // System.Void Oculus.Interaction.SecondaryInteractorFilter::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SecondaryInteractorFilter__ctor_mB4651E9584AAEA20EA7C4A4849FE4CE3300FED22 (SecondaryInteractorFilter_t592A2906F199F187643CC9EAAFBC6BA015703C29* __this, const RuntimeMethod* method) 
-{
-	{
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.TagMonoBehaviourFilter::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TagMonoBehaviourFilter__ctor_m4B81D65EA5245114D115C35F94F9120BBB0979C6 (TagMonoBehaviourFilter_t828796ECFA3840178C27A2EAEAC1CF7867A3FBB8* __this, const RuntimeMethod* method) 
 {
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);

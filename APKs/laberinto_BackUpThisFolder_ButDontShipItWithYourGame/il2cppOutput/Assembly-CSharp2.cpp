@@ -547,6 +547,8 @@ struct TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957;
 struct TextMeshSpawner_tB6905931E9BE4D7A2A2E37A51E221A7B462D75BB;
 // UnityEngine.Texture2D
 struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+// Tiempo
+struct Tiempo_t50106E826012B6A227BEB1D48794BAF25B88291F;
 // UnityEngine.UI.Toggle
 struct Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F;
 // UnityEngine.UI.ToggleGroup
@@ -698,6 +700,7 @@ IL2CPP_EXTERN_C RuntimeClass* RectTransformUtility_t65C00A84A72F17D78B81F2E7D88C
 IL2CPP_EXTERN_C RuntimeClass* Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ShaderUtilities_t9BE0345DF949745FC0EB9A1119E204F2F129298F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SpriteSelectionEvent_t770551D2973013622C464E817FA74D53BCD4FD95_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* String_t_il2cpp_TypeInfo_var;
@@ -776,6 +779,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral75A94EE44309525CF46FB9C022ED6E9EFAC8B506
 IL2CPP_EXTERN_C String_t* _stringLiteral7E70AF961A2F88ADB9DB7B9C3B5F25A532C1570A;
 IL2CPP_EXTERN_C String_t* _stringLiteral7F85A2723BB62FEF95DD6F8C5F0FF606EA62246A;
 IL2CPP_EXTERN_C String_t* _stringLiteral7F8C014BD4810CC276D0F9F81A1E759C7B098B1E;
+IL2CPP_EXTERN_C String_t* _stringLiteral83B3AC6758D86CADACD137D81E6A6C1704E1B557;
 IL2CPP_EXTERN_C String_t* _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D;
 IL2CPP_EXTERN_C String_t* _stringLiteral88BEE283254D7094E258B3A88730F4CC4F1E4AC7;
 IL2CPP_EXTERN_C String_t* _stringLiteral8ACAA4E0B28437F5FD1A41CE6591A16813F05377;
@@ -811,6 +815,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralCEB055F85C5660DEABF3989A924C2D2EDB0C8C84
 IL2CPP_EXTERN_C String_t* _stringLiteralCED30D471F9ECB011896E4C24680A6982ECBCAFE;
 IL2CPP_EXTERN_C String_t* _stringLiteralCEE4BEC9969079A1DA2F65E0F044E4FF1AF5EEAE;
 IL2CPP_EXTERN_C String_t* _stringLiteralD00074DE8ACBEBA7EF28BE447E997E8352E84502;
+IL2CPP_EXTERN_C String_t* _stringLiteralD3C6FF105F16F36B05CE62DC0895F7A6B90F6ED8;
 IL2CPP_EXTERN_C String_t* _stringLiteralD579F97F4A33C344330AED1285CC5B545618BC19;
 IL2CPP_EXTERN_C String_t* _stringLiteralD9691C4FD8A1F6B09DB1147CA32B442772FB46A1;
 IL2CPP_EXTERN_C String_t* _stringLiteralD99C319B457682A09D028AF022D0B2EE6B4D48A6;
@@ -4883,6 +4888,17 @@ struct TextMeshSpawner_tB6905931E9BE4D7A2A2E37A51E221A7B462D75BB  : public MonoB
 	TextMeshProFloatingText_t833773B79A4826E78EDF2799C157B0EC3ACACB31* ___floatingText_Script_7;
 };
 
+// Tiempo
+struct Tiempo_t50106E826012B6A227BEB1D48794BAF25B88291F  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// System.Single Tiempo::TiempoRestante
+	float ___TiempoRestante_4;
+	// System.Boolean Tiempo::TiempoActivo
+	bool ___TiempoActivo_5;
+	// TMPro.TMP_Text Tiempo::TimerTxt
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___TimerTxt_6;
+};
+
 // UnityEngine.EventSystems.UIBehaviour
 struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -7439,6 +7455,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CharacterController_Move_mE3F7AC1B4A2
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Vector3::op_Inequality(UnityEngine.Vector3,UnityEngine.Vector3)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Inequality_m9F170CDFBF1E490E559DA5D06D6547501A402BBF_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___lhs0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rhs1, const RuntimeMethod* method) ;
+// System.Void Tiempo::actualizaTiempo(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tiempo_actualizaTiempo_m131D5177F53AB1E34CD394A1629F4DA86421C2CA (Tiempo_t50106E826012B6A227BEB1D48794BAF25B88291F* __this, float ___tiempoActual0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.MonoBehaviour::print(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.Mathf::FloorToInt(System.Single)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline (float ___f0, const RuntimeMethod* method) ;
 // TMPro.TMP_InputField/SubmitEvent TMPro.TMP_InputField::get_onSubmit()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SubmitEvent_tF7E2843B6A79D94B8EEEA259707F77BD1773B500* TMP_InputField_get_onSubmit_mAA494FA0B3CFFB2916B399BD5D87C2E1AA637B90_inline (TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`1<System.String>::.ctor(System.Object,System.IntPtr)
@@ -12111,6 +12133,138 @@ IL_00e5:
 }
 // System.Void Personaje_old::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Personaje_old__ctor_mD196D466E59497183FAF103E33C53C3FAA12C017 (Personaje_old_tCE6CCD44E7EF765B5B669BC9CAC0FFBDE0DFD8D9* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Tiempo::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tiempo_Start_m05458EF305D4CD3984FA0B2E4BA4C9FF454A7E83 (Tiempo_t50106E826012B6A227BEB1D48794BAF25B88291F* __this, const RuntimeMethod* method) 
+{
+	{
+		// TiempoActivo = true;
+		__this->___TiempoActivo_5 = (bool)1;
+		// }
+		return;
+	}
+}
+// System.Void Tiempo::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tiempo_Update_m6166A0096BF097064454C7D0BE1061F2F1DF49A0 (Tiempo_t50106E826012B6A227BEB1D48794BAF25B88291F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral83B3AC6758D86CADACD137D81E6A6C1704E1B557);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (TiempoActivo)
+		bool L_0 = __this->___TiempoActivo_5;
+		if (!L_0)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		// if(TiempoRestante > 0)
+		float L_1 = __this->___TiempoRestante_4;
+		if ((!(((float)L_1) > ((float)(0.0f)))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		// TiempoRestante -= Time.deltaTime;
+		float L_2 = __this->___TiempoRestante_4;
+		float L_3;
+		L_3 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___TiempoRestante_4 = ((float)il2cpp_codegen_subtract(L_2, L_3));
+		// actualizaTiempo(TiempoRestante);
+		float L_4 = __this->___TiempoRestante_4;
+		Tiempo_actualizaTiempo_m131D5177F53AB1E34CD394A1629F4DA86421C2CA(__this, L_4, NULL);
+		return;
+	}
+
+IL_0034:
+	{
+		// print("Se acabo el tiempo");
+		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral83B3AC6758D86CADACD137D81E6A6C1704E1B557, NULL);
+		// TiempoRestante = 0;
+		__this->___TiempoRestante_4 = (0.0f);
+		// TiempoActivo = false;
+		__this->___TiempoActivo_5 = (bool)0;
+	}
+
+IL_0050:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Tiempo::actualizaTiempo(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tiempo_actualizaTiempo_m131D5177F53AB1E34CD394A1629F4DA86421C2CA (Tiempo_t50106E826012B6A227BEB1D48794BAF25B88291F* __this, float ___tiempoActual0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD3C6FF105F16F36B05CE62DC0895F7A6B90F6ED8);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	{
+		// tiempoActual += 1;
+		float L_0 = ___tiempoActual0;
+		___tiempoActual0 = ((float)il2cpp_codegen_add(L_0, (1.0f)));
+		// float minutos = Mathf.FloorToInt(tiempoActual / 60);
+		float L_1 = ___tiempoActual0;
+		int32_t L_2;
+		L_2 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(((float)(L_1/(60.0f))), NULL);
+		V_0 = ((float)L_2);
+		// float segundos = Mathf.FloorToInt(tiempoActual % 60);
+		float L_3 = ___tiempoActual0;
+		int32_t L_4;
+		L_4 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline((fmodf(L_3, (60.0f))), NULL);
+		V_1 = ((float)L_4);
+		// TimerTxt.text = string.Format("{0:00}:{1:00}", minutos, segundos);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5 = __this->___TimerTxt_6;
+		float L_6 = V_0;
+		float L_7 = L_6;
+		RuntimeObject* L_8 = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &L_7);
+		float L_9 = V_1;
+		float L_10 = L_9;
+		RuntimeObject* L_11 = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &L_10);
+		String_t* L_12;
+		L_12 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralD3C6FF105F16F36B05CE62DC0895F7A6B90F6ED8, L_8, L_11, NULL);
+		NullCheck(L_5);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_5, L_12);
+		// }
+		return;
+	}
+}
+// System.Void Tiempo::setTiempoRestante(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tiempo_setTiempoRestante_mDABA9045CBEE5470C33E0D1A13B4CBC7CF7EE2F7 (Tiempo_t50106E826012B6A227BEB1D48794BAF25B88291F* __this, float ___TiempoRestante0, const RuntimeMethod* method) 
+{
+	{
+		// this.TiempoRestante = TiempoRestante;
+		float L_0 = ___TiempoRestante0;
+		__this->___TiempoRestante_4 = L_0;
+		// }
+		return;
+	}
+}
+// System.Void Tiempo::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tiempo__ctor_mBD0D7863D3FA3C2C085F6248EEB656A3313900E2 (Tiempo_t50106E826012B6A227BEB1D48794BAF25B88291F* __this, const RuntimeMethod* method) 
 {
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
@@ -25314,6 +25468,30 @@ IL_000e:
 	{
 		bool L_3 = V_0;
 		return L_3;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline (float ___f0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		float L_0 = ___f0;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_1;
+		L_1 = floor(((double)L_0));
+		V_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_1);
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		int32_t L_2 = V_0;
+		return L_2;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SubmitEvent_tF7E2843B6A79D94B8EEEA259707F77BD1773B500* TMP_InputField_get_onSubmit_mAA494FA0B3CFFB2916B399BD5D87C2E1AA637B90_inline (TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F* __this, const RuntimeMethod* method) 

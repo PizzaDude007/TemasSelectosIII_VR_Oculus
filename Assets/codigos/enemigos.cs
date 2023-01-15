@@ -23,6 +23,11 @@ public class enemigos : MonoBehaviour
                 valorAnim = 1;
 
             }
+            else
+            {
+                enemigoNav.destination = posInicial.position;
+            }
+
             if (atacar.ataque)
                 valorAnim = 2;
             if (persigue && detectar)
@@ -31,15 +36,19 @@ public class enemigos : MonoBehaviour
                 valorAnim = 2;
 
             }
+            if (enemigoNav.transform.position == posInicial.position)
+            {
+                valorAnim = 0;
+            }
         }
         else
             enemigoNav.isStopped = true;
         enemigoAnim.SetInteger("estado", valorAnim);
-        
 
-        
-            
-        
+
+
+
+
     }
     public void OnTriggerEnter(Collider vista1)
     {

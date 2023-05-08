@@ -3,11 +3,13 @@
 ## Overview
 
 VR Maze Runner is a Unity VR test project that challenges the player to navigate a maze while being chased by a cyborg enemy. The goal is to reach the end of the maze before the enemy catches the player. The player can use a game controller to move around the maze and shoot pellets to defeat the cyborg.
+
 <a href="https://drive.google.com/uc?export=view&id=1myNlolN3c_ulaq-hwXnkGH9s3h9ybHZo"><img src="https://drive.google.com/uc?export=view&id=1myNlolN3c_ulaq-hwXnkGH9s3h9ybHZo" style="max-width: 60%; height: auto" title="Click to enlarge picture" />
   
 ## Gameplay
 
 The game starts with the player at the entrance of the maze. The player can use the game controller's left joystick to move around the maze. The cyborg will start chasing the player as soon as the player enters the maze. The player can use the right joystick to aim and press the B button to shoot pellets at the cyborg. If the pellet hits the cyborg, it will be defeated and disappear. However, if the cyborg catches the player, the game is over.
+
 <a href="https://drive.google.com/uc?export=view&id=1bWvym3sFe9qUxrsU4KAgDZYFxZESvEnf"><img src="https://drive.google.com/uc?export=view&id=1bWvym3sFe9qUxrsU4KAgDZYFxZESvEnf" style="max-width: 60%; height: auto" title="Click to enlarge picture" />
 
 ## Unity Features
